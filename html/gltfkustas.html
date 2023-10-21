@@ -9,7 +9,10 @@
 <body>
 <a-scene vr-mode-ui='enabled: false' arjs='sourceType: webcam; videoTexture: true; debugUIEnabled: false' renderer='antialias: true; alpha: true'>
     <a-camera gps-new-camera='gpsMinDistance: 5'></a-camera>
-    <a-entity gltf-model="./gato_silvestre/scene.gltf" gps-new-entity-place="latitude: 56.93701197861104; longitude: 24.09772366846176" scale="0.3 0.3 0.3">
+    <a-assets>
+        <a-asset-items id="kakis" src="./gato_silvestre/scene.gltf"></a-asset-items>
+    </a-assets>
+    <a-entity gltf-model="£kakis" gps-new-entity-place="latitude: 56.93701197861104; longitude: 24.09772366846176" scale="0.3 0.3 0.3">
     </a-entity>
 </a-scene>
 </body>
