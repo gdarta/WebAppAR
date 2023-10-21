@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AR.js A-Frame Location-based</title>
+<script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+<script type='text/javascript' src='https://raw.githack.com/AR-js-org/AR.js/master/three.js/build/ar-threex-location-only.js'></script>
+<script type='text/javascript' src='https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js'></script>
+</head>
+<body>
+<a-scene vr-mode-ui='enabled: false' arjs='sourceType: webcam; videoTexture: true; debugUIEnabled: false' renderer='antialias: true; alpha: true'>
+    <a-camera gps-new-camera='gpsMinDistance: 5'></a-camera>
+    <a-entity material='color: red' geometry='primitive: box' gps-new-entity-place="latitude: <add-your-latitude>; longitude: <add-your-longitude>" scale="10 10 10"></a-entity>
+    <!-- <a-image src="https://ichef.bbci.co.uk/food/ic/food_16x9_832/recipes/rainbow_cake_20402_16x9.jpg"  width="3" height="1.5" gps-new-image-place="latitude: 56.93701197861104; longitude: 24.09772366846176"></a-image> -->
+    <!-- <a-entity src="https://ichef.bbci.co.uk/food/ic/food_16x9_832/recipes/rainbow_cake_20402_16x9.jpg" geometry="primitive: plane; width: 10; height: 10" gps-new-entity-place="latitude: 56.93701197861104; longitude: 24.09772366846176"></a-entity>-->
+    <!--  <a-image src="pankukasbrokastis44008056.jpg" width="3" height="1.5" gps-new-image-place="latitude: 56.93701197861104; longitude: 24.09772366846176"></a-image> -->
+</a-scene>
+</body>
+</html>
