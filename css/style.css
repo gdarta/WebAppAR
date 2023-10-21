@@ -19,6 +19,7 @@
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  width: 100%
 }
 
 .button-71:before {
