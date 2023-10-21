@@ -1,0 +1,11 @@
+Model Information:
+* title:	Gato silvestre
+* source:	https://sketchfab.com/3d-models/gato-silvestre-6b5fba551e8f428eba4eccc88a7de462
+* author:	JojoSp (https://sketchfab.com/JojoSp)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Gato silvestre" (https://sketchfab.com/3d-models/gato-silvestre-6b5fba551e8f428eba4eccc88a7de462) by JojoSp (https://sketchfab.com/JojoSp) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
